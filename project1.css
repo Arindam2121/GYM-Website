@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.position {
+    top: 1px;
+    position: sticky;
+}
+
+.navbar {
+    display: flex;
+    height: 60px;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.gymimg {
+    width: 20%;
+
+}
+
+.section2 {
+    padding-left: 63px;
+    padding-right: 63px;
+    height: 67vh;
+}
+
+.section2 p {
+    padding: 0 8vw;
+    text-align: center;
+}
+
+
+.box {
+    margin: 13px 13px;
+    min-width: 20vw;
+    border: 2px solid rgb(214, 54, 54);
+    border-radius: 6px;
+    text-align: center;
+}
+
+.box h2 {
+    padding: 12px 0px;
+    font-size: 1.5rem;
+    border: 2px;
+    background-color: rgba(0, 0, 0, 0.132);
+}
+
+.highlited {
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.box ul {
+    list-style-type: none;
+
+}
+
+.box ul li {
+    margin: 12px 2px;
+}
+
+.plantable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table {
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 40px;
+    border-collapse: collapse;
+}
+
+.section3 table th {
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 12px 0px;
+}
+
+.section3 table td {
+    border-bottom: 2px solid black;
+
+}
+
+.bgcolor {
+    background-color: #00000012;
+}
+
+.section4 {
+    padding: 200px;
+}
+
+.section4 button {
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 0px solid #f8931f;
+    background-color: #f8931f;
+    cursor: pointer;
+}
+
+.section4 button:hover {
+    padding: 10px 25px;
+    border-radius: 12px;
+    border: 0px solid #f8931f;
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+
+.section5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+}
+
+.section5 form .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.section5 form .row .col {
+    flex: 1 1 250px;
+    padding-right: 20px;
+}
+
+.section5 form .row .col .title {
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.section5 form .row .col .inputBox {
+    margin: 15px 0;
+}
+
+.section5 form .row .col .inputBox span {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.section5 form .row .col .inputBox input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 12px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.section5 form .row .col .inputBox input:focus {
+    border: 1px solid #000;
+}
+
+.section5 form .row .col .flex {
+    display: flex;
+    gap: 15px;
+}
+
+.section5 form .row .col .flex .inputBox {
+    margin-top: 5px;
+}
+
+.section5 form .row .col .inputBox img {
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+}
+
+.section5 form .submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: #27ae60;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.section5 form .submit-btn:hover {
+    background: #2ecc71;
+}
